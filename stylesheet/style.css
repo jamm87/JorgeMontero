@@ -27,7 +27,15 @@
     height: 10vh;
     height: 12vh;
     width: 100vw;
-    background-color: #032CA6;
+  
+    background: rgba(242,116,5,1);
+background: -moz-linear-gradient(left, rgba(242,116,5,1) 0%, rgba(157,8,2,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,116,5,1)), color-stop(100%, rgba(157,8,2,1)));
+background: -webkit-linear-gradient(left, rgba(242,116,5,1) 0%, rgba(157,8,2,1) 100%);
+background: -o-linear-gradient(left, rgba(242,116,5,1) 0%, rgba(157,8,2,1) 100%);
+background: -ms-linear-gradient(left, rgba(242,116,5,1) 0%, rgba(157,8,2,1) 100%);
+background: linear-gradient(to right, rgba(242,116,5,1) 0%, rgba(157,8,2,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f27405', endColorstr='#9d0802', GradientType=1 );
     -webkit-box-shadow: 2px -3px 28px 1px rgba(1,4,64,1);
     -moz-box-shadow: 2px -3px 28px 1px rgba(1,4,64,1);
     box-shadow: 2px -3px 28px 1px rgba(1,4,64,1);
