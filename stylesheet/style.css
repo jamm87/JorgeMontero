@@ -27,8 +27,11 @@
     height: 10vh;
     height: 12vh;
     width: 100vw;
-  
-    background: #1C2559;
+    background-color: black;
+    background-image:url("../images/header-img.png");
+    background-repeat: no-repeat;
+    
+    background-position: center;
     -webkit-box-shadow: 2px -3px 28px 1px rgba(1,4,64,1);
     -moz-box-shadow: 2px -3px 28px 1px rgba(1,4,64,1);
     box-shadow: 2px -3px 28px 1px rgba(1,4,64,1);
@@ -40,7 +43,8 @@
     color: #FFFFFF;
   }
   body {
-    background-color: #0339A6;
+    background-color: #ffffff;
+    background-image: url("../images/Background-pattern.png");
     height: 100vh;
     font-family: 'Circular-Book', Arial, sans-serif;
   }
@@ -75,25 +79,40 @@
   h1 {
     font-family: "Circular-Bold";
     font-size: 5vw;
-    color: #F2786D;
+    color: #5D538A;
   }
   h2 {
     font-family: "Circular-Bold";
     font-size: 2.4vw;
-    color: #FFFFFF;margin-bottom: 0;
+    color: #5D538A;
+    margin-bottom: 0;
   }
   h3 {
     font-family: "Circular-Book";
     font-size: 1.55vw;
-    color: #Ffffff;
+    color: #5D538A;
     line-height: 2.4vw;
     margin-bottom: 0;
   }
   p {
     font-family: "Circular-Book";
     font-size: 1.2vw;
-    color: #FFFFFF;
+    color: #5D538A;
   }
+  .rrss{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+
+  }
+  .rrss img{
+    width: 40px;
+    margin-right: 15px;
+    -webkit-filter: #5D538A;
+    filter: #5D538A;
+
+  }
+
   .button-secondary {
   
     background-color: #FFFFFF;
@@ -114,7 +133,7 @@
   }
   .button-primary
   {
-    background-color: #F2786D;
+    background-color: #5D538A;
     border-radius: 8px;
     color: #ffffff;
     width: 320px;
@@ -138,7 +157,7 @@
   }
 
   .button-primary:hover {
-    background-color: #0339A6;
+    background-color: #783B47;
     text-decoration: none;
     color: white;
   }
@@ -168,9 +187,9 @@
   }
   
   .navbar-collapse.navbar-content.links.collapse.show{
-    background-color: rgba (0 0 0 0 0.1);
+    background-color: #000000;
     text-align: right;
-    width: 100%;
+    width: 30%;
   
   }
   .sections{
@@ -184,11 +203,11 @@
     color: #FFFFFF;
   }
   .nav-item.sections:hover .nav-link {
-    color: #F2786D !important;
+    color: #5D538A !important;
   }
   
   .nav-link.active {
-    color: #F2786D !important;
+    color: #5D538A !important;
   }
   
   .elements{
@@ -211,6 +230,7 @@
   
   .design-thinking{
     width: 100%;
+    border-radius: 10px;
   }
   
   .section2 {
@@ -303,6 +323,7 @@
   
   .past {
     margin: 0 0;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -319,12 +340,12 @@
   }
   .title-green{
     text-decoration: none;
-    color: #69D0C1;
+    color: #5D538A;
   }
   .title-green:hover{
     text-decoration: none;
-    border-bottom: 2px solid #69D0C1;
-    color: #69D0C1;
+    border-bottom: 2px solid #783B47;
+    color: #783B47;
   }
   
   
@@ -334,8 +355,8 @@
   .project-galery {
     margin-top: 32px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    
     height: 60vh;
     align-content: flex-start;
   }
@@ -347,6 +368,7 @@
     box-sizing: border-box;
     width: 19.5vw;
     margin: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.08), 0 1px 10px 0 rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.08);
   }
   
@@ -356,11 +378,11 @@
   }
   .project-item.large2 {
     height: 19.5vw;
-    background-image: url('../images/lowproject02.png');
+    background-image: url('../images/DeAqui-Mockup.png');
   }
   .project-item.large3 {
     height: 19.5vw;
-    background-image: url('../images/lowproject03.png');
+    background-image: url('../images/TeamUp-mockup.png');
   }
   .project-item.large4 {
     height: 19.5vw;
@@ -395,7 +417,7 @@
   .one {
     width: 100%;
     height: 100%;
-    background-color: #034AA6;
+    background-color: 783B47;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -403,9 +425,13 @@
     text-align: left;
     padding: 5% 6%;
     opacity: 0;
+    border-radius: 10px;
   }
   
-  .project-item:hover > .card-info {
+  .project-item a{
+    text-decoration: none;
+  }
+  .project-item a:hover > .card-info {
     opacity: 0.8;
   }
   
