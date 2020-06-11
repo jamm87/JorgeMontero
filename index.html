@@ -12,6 +12,7 @@
     
     <link rel="stylesheet" href="stylesheet/reset.css">
     <link rel="stylesheet" href="stylesheet/style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
     <!--html>
     <link rel="stylesheet" media="(max-width: 780px)" href="stylesheet/tablet.css">
     <link rel="stylesheet" media="(max-width: 420px)" href="stylesheet/mobile.css">
@@ -48,11 +49,8 @@
       <div class="main-nav row">
         <nav class="navbar navbar-expand-lg navbar-light bg-none">
           <a href="#home"><img class="logo" src="images/JorgeMontero.png" alt="logo personal"></a>
-          <button class="navbar-toggler hamburguer" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
-          <div class="collapse navbar-collapse navbar-content links" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse navbar-content links" id="navbarTogglerDemo02"></div>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
               <li class="nav-item sections">
@@ -75,13 +73,14 @@
 
 <body>
 
-  <div id="home" class="section section1">
+  <div id="home" class="section-home">
+    <div>
     <h1>
       Hola! </br>
       Soy Jorge Montero</br>
-      UX|UI Designer</br>
+      UX | UI Designer</br>
     </h1>
-  </br>
+    </div>
     <div class="rrss">
       <a href="https://www.linkedin.com/in/jorgemontero-ui-design/"><img src="images/iconolinkedin.png"></a>
       <a href="https://medium.com/@jorgemmartin"><img src="images/iconomedium.png"></a>
@@ -89,7 +88,9 @@
       <a href="https://soundcloud.com/motokiatu"><img src="images/iconosoundcloud.png"></a>
       <a href="https://instagram.com/malariamontero"><img src="images/iconoinstagram.png"></a>    
     </div>
-    <button class="home-button button-primary" type="button" name="button"><a href="#como-diseno" class="button-primary2">Este es mi trabajo</a></button>
+    <div>
+    <a href="#como-diseno" ><button class="button-primary" type="button" name="button">Este es mi trabajo</button></a>
+    </div>
   </div>
 
   <div id="projects" class="section section4">
@@ -136,14 +137,13 @@
     </div>
   </div>
 
-  <div id="como-diseno" class="section section2">
-      <div class="content-experience">
+  <div id="como-diseno" class="section-comodiseno">
         <div class="user-experience">
           <div class="title">
             <h2>Diseño UX / UI</h2>
           </div>
           <div class="subtitle">
-            <h3>Me gusta el diseño, la tecnología y las personas, UX/UI, para mí es todo eso.</h3>
+            <h3>A través de una metodologia design thinking, ayudo a los usuarios a enamorarse de las experiencias digitales, respondiendo a sus necesidades y comportamientos para que tu producto forme parte de su vida.</h3>
               <h3 class="text">Estas son las herramientas que utilizo: </br></br>
                 - Design Thinking
                 - User-centered design</br>
@@ -151,24 +151,20 @@
                 - User Research</br>
                 - User Personas, flows, scenarios…</br>
                 - Site Mapping</br>
-                - Wireframing</br>
-                - Prototipado y microinteracciones</br>
+                - Wireframing, prototipado y microinteracciones</br>
                 - Edición de imagen</br>
                 - Maquetación</br>
                 - HTML + CSS básico</br>
                 - Style Guides</br>
                 - Trabajo en equipo remoto: Google Suite, Whimshical, Mural, Zoom, Trello, Notion…</br>
               </h>
-              <button class="home-button button-primary" type="button" name="button"><a href="#contacto" class="button-primary2">¿Quieres ver mi CV?</a></button>
+              <a href="#contacto"><button class="button-primary" type="button" name="button" value="Ver cv">¿Quieres ver mi CV?</button></a>
           </div>
         </div>
-      </div>
-      <div class="image-experience">
-        <img class="design-thinking"src="images/design-thinking.png" alt="design thinking process">
-      </div>
+        <div class="user-experience-image"></div>
   </div>
 
-  <div id="bio" class="section section2">
+  <div id="bio" class="section-bio">
     <div class="content-about">
       <div class="title">
         <h2>Bio</h2>
@@ -189,41 +185,38 @@
         Fuera de la pantalla, mis otras pasiones son la música electrónica de África y su diáspora, pastorear cabras y recorrer el campo en bici.</h3>
       </div>
     </div>
-    <h3 class="title">Mis últimas experiencias profesionales, relacionadas con la música, diseño y redes<h/>
     <div class="past">
-        <div class="profcards">
-          <div class="experience-wrapper ironhack">
+      <h3 class="title">Mis últimas experiencias profesionales, relacionadas con la música, diseño y redes<h/>
+      <div class="profcards">
+          <div class="experience-wrapper">
             <a href="https://motokiatu.com"><img class="pc" src="images/MotoKiatu.png" alt=""></a>
           </div>
-          <div class="experience-wrapper bwow">
+          <div class="experience-wrapper">
             <a href="https://sweatdealers.tumblr.com"><img class="pc" src="images/Sweatdealers.png" alt=""></a>
           </div>
-          <div class="experience-wrapper setafoot">
+          <div class="experience-wrapper">
             <a href="https://manglarparty.tumblr.com/"><img class="pc" src="images/Manglar.png" alt=""></a>
-        </div>
-          <div class="experience-wrapper pwc">
+          </div>
+          <div class="experience-wrapper">
           <a href="content/Area3_memoria_final.pdf"><img class="pc" src="images/Area3.png" alt=""></a>
-        </div>
-        </div>
-        <div class="linkedin vl">
-          <p class="title">Todo lo que he hecho,</p>
-          <a class="title-green" href="https://www.linkedin.com/in/jorgemontero-ui-design/">en LinkedIn</a>
+          </div>
 
-        </div>
-
+      <div class="linkedin">
+          <h3>Todo lo que he hecho,<a class="title-green" href="https://www.linkedin.com/in/jorgemontero-ui-design/"> en LinkedIn</a></h3>
+      </div>
+    </div>
     </div>
   </div>
 
-  <div  class="section section6" id="contacto">
+  <div  class="contacto" id="contacto">
     <div class="left-contact-wrapper">
-      <img class="design-thinking"src="images/jorge.png" alt="design thinking process">
     </div>
     <div class="right-contact-wrapper">
     <div class="title" >
       <h2>📩  Escríbeme</h2>
     </div>
     <div class="subtitle">
-      <h3>Para pedir información, saludarme o enviarme cualquier cosa</h3>
+      <h3>Me encanta conocer proyectos, que me pregunten por mi background y recibir música</h3>
     </div>
     <div class="form">
     <form action="https://formspree.io/mwkrokpk"
