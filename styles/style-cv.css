@@ -1,0 +1,212 @@
+*{
+    margin:0;
+}
+html{
+    background:#000000;
+    margin:0;
+    padding:0;
+    display: flex;
+    align-content: center;
+}
+
+h1{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #000000;
+    margin:0;
+  }
+  
+h2{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin:0;
+    }
+
+h3{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+    padding-top: 32px;
+    }
+
+h4{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 20px;
+    }
+
+p{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 8px;
+    margin-left: 16px;
+    
+    }
+
+a {
+        text-decoration: none;
+        color:#000000;
+      }
+.gris{
+   font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 0;
+    }
+
+header{
+    background-color:#000000;  
+    background-image:url("img/Background-pattern.png");
+    height:88px;
+    width: 100%;
+    border:solid;
+    }
+
+body{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    background-image:url("img/Jorge-Montero-Profile-Photo.jpg");
+    
+}
+
+.cabecera{
+    width: 80%;
+    display:flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-bottom:30px;   
+    flex-wrap: wrap; 
+}
+  
+.izquierda{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    flex-wrap:wrap;
+    }
+
+.izquierda img{
+    margin:auto;
+    border-radius:50%;
+    width: 137px;
+    height: 137px;
+    }
+  
+.nombre{
+    padding:10px;
+    }
+  
+  
+.derecha ul{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    list-style: none
+    }
+.derecha li{
+    margin-top: 3px;
+}
+
+.contenido{
+    width: 80%;
+    display:flex;
+    flex-direction: row;
+    
+}
+.columna1{
+    width: 50%;
+    margin-right: 20px;
+    
+}
+.columna2{
+    width: 50%;
+    margin-left: 20px;
+}
+li {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration-line: none;
+    }
+
+.columna li::marker {
+    content: "- ";
+    }
+
+.seccion{
+    margin-top: 16px;
+}
+.seccion ul{
+    margin-top:12px;
+}
+
+footer{
+    background-color:#000000;  
+    background-image: url("https://jorgemontero.work/images/Background-pattern.png");
+    height:88px;
+    width: 100%;
+    border:solid;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 1000px) {
+    .cabecera{
+        width:95%;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .izquierda{
+        justify-content: center;
+    }
+    .nombre{
+        text-align: center;
+    }
+   
+    .derecha ul{
+        text-align: center;
+        padding: 0;
+    }
+    .contenido{
+        flex-wrap: wrap;
+    }
+    .columna1{
+        width: 100%;
+        margin-right: 0;
+    }
+    .columna2{
+        width:100%;
+        margin-left: 0;
+    }
+}
