@@ -22,7 +22,7 @@
   }
   
   .contact-card {
-    width: 14em;
+    width: 20em;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     line-height: 1.5em;
@@ -58,11 +58,11 @@
   .contact-card__name {
     margin-top: 2em;
     margin-bottom: .5em;
-    font-size: 1.125rem;
+    font-size: 1.4rem;
   }
   .contact-card__subtitle {
     margin-bottom: .5em;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-left: 10px;
     margin-right: 10px;
     color:#adadad;
@@ -84,19 +84,19 @@
     background-color: #FAFAFA;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style:none;
   }
   .contact-card__footer__link {
-    width: 25%;   
+    width: 20%;   
     transition: 0.125s ease-in-out;
     -webkit-transition: 0.125s ease-in-out;
     -moz-transition: 0.125s ease-in-out;
   }
   .contact-card__footer__link img{
       width: 100%;
-      padding: 15px;
+      padding: 10px;
       border: solid 0px;
       border-radius: 10px;
       filter: hue-rotate 240deg; 
