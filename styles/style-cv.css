@@ -136,11 +136,11 @@ body{
     margin-top: 3px;
 }
 .derecha li a:hover{
-    font-weight: bold;
+    font-style: italic;
 }
 
 
-.cta{
+.cta{   
     background-color: #000000;
     border-radius: 10px;
     border:solid 2px #000;
