@@ -213,6 +213,8 @@ li {
 .seccion ul{
     margin-top:12px;
 }
+.contenido a:hover{
+    font-style: italic;}
 
 footer{
     background-color:#000000;  
